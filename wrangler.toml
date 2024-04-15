@@ -1,0 +1,7 @@
+name = "repro"
+compatibility_date = "2024-04-05"
+
+[[durable_objects.bindings]]
+name = "MY_DO"
+class_name = "MyDurableObject"
+script_name = "do-worker"

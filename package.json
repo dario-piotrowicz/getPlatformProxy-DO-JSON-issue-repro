@@ -1,0 +1,15 @@
+{
+  "name": "getplatformproxy-do-json-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "3.29.0"
+  }
+}
