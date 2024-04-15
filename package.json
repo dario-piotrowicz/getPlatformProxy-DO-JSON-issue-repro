@@ -5,11 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "ok": "pnpm -w i wrangler@3.45.0 && pnpm start",
+    "ko": "pnpm -w i wrangler@3.46.0 && pnpm start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wrangler": "3.29.0"
+    "wrangler": "^3.50.0"
   }
 }
