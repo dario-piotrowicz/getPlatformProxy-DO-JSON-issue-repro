@@ -7,11 +7,13 @@
   "scripts": {
     "start": "node index.js",
     "ok": "pnpm -w i wrangler@3.45.0 && pnpm start",
-    "ko": "pnpm -w i wrangler@3.46.0 && pnpm start"
+    "ko": "pnpm -w i wrangler@3.46.0 && pnpm start",
+    "miniflare": "node index.miniflare.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wrangler": "^3.50.0"
+    "wrangler": "^3.46.0",
+    "miniflare": "^3.20240405.2"
   }
 }
